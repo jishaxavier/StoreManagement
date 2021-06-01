@@ -47,13 +47,13 @@ public class Billing {
 	public void setPaid(Boolean paid) {
 		this.paid = paid;
 	}
-	public void getBill() {
-		System.out.println("BillID= "+this.billID+", Bill Amount= "+this.billAmount);
-		if(getPaid() == true) {
-			System.out.println("Bill Paid? Yes ");
-		}else {
-			System.out.println("Bill Paid? No");
-		}
-	}
+//	public void getBill() {
+//		System.out.println("BillID= "+this.billID+", Bill Amount= "+this.billAmount);
+//		if(getPaid() == true) {
+//			System.out.println("Bill Paid? Yes ");
+//		}else {
+//			System.out.println("Bill Paid? No");
+//		}
+//	}
 	
 }
